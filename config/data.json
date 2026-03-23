@@ -1,0 +1,120 @@
+{
+  "personal": {
+    "name": "Jianbin Zhao",
+    "zhName": "",
+    "title": "Undergraduate Student",
+    "mbti": "ENFP",
+    "school": "Dalian University of Technology",
+    "university": "Dalian University of Technology",
+    "location": "Dalian, China",
+    "email": "1518272584@mail.dlut.edu.cn",
+    "profileImage": "./assets/imgs/bio.jpg",
+    "github": "https://github.com/Jianbin-Zhao"
+  },
+  "interests": ["🪈 Bamboo Flute", "🍜 Foodie"],
+  "biography": "I am an undergraduate student majoring in Artificial Intelligence at the <b>School of Future Technology</b>, <a href=\"https://en.dlut.edu.cn/\">Dalian University of Technology</a> (Class of 2027).<br><br>📌 My research interests focus on <i>Generative Models</i> and <i>3D Vision</i>, with a particular emphasis on <i>Autoregressive Models</i> and <i>3D/4D Reconstruction</i>. I enjoy exploring how generative frameworks can push the boundaries of visual understanding and creation — both in 2D and 3D worlds.",
+  "education": [
+    {
+      "period": "[2023–Now]",
+      "emoji": "📚",
+      "description": "Pursuing my B.E. degree in Artificial Intelligence at the <b>School of Future Technology</b>, <a href=\"https://en.dlut.edu.cn/\">Dalian University of Technology</a>, Dalian, China."
+    }
+  ],
+  "news": [
+    {
+      "date": "[2026-02]",
+      "emoji": "🔥",
+      "content": "One paper accepted by <i>CVPR 2026</i>: <b>Style-GRPO</b>. Proud to be co-first author!"
+    },
+    {
+      "date": "[2025-07]",
+      "emoji": "⚡",
+      "content": "One paper accepted by <i>ACMMM 2025</i>: <b>E-4DGS</b>."
+    }
+  ],
+  "projects": {
+    "generative_ar": [
+      {
+        "title": "🎨 Style-GRPO: Semantic-Aware Preference Optimization for Image Style Transfer Guided by Reward Modeling",
+        "authors": "<u><b>Jianbin Zhao<sup>*</sup></b></u>, Chaoran Feng<sup>*</sup>, Miao Yu<sup>*</sup>, Yingtao Li, Zhenyu Tang, Wangbo Yu, Yian Zhao, Xiaomin Li, Li Yuan†, Yonghong Tian†",
+        "description": "Built StyleReward-Dataset with 300K preference pairs and end-to-end multimodal reward model StyleScore; solved style leakage & semantic drift via GRPO, achieving SOTA performance.",
+        "venue": "CVPR 2026",
+        "image": "./assets/pipelines/Pipeline_stylegrpo.png",
+        "links": [
+          {"type": "Paper", "url": "./assets/files/StyleGRPO.pdf"}
+        ]
+      },
+      {
+        "title": "🤖 DIVA: Dual Distillation for Advancing Visual Autoregressive Models",
+        "authors": "Xiaomin Li<sup>*</sup>, <u><b>Jianbin Zhao<sup>*</sup></b></u>, Takashi Isobe, Tong Shen, Zirui Zheng, Qinghe Wang, Haiwen Diao, Chaoran Feng, Huchuan Lu, You He, Xu Jia†",
+        "description": "Proposed DiVA dual distillation framework — data distillation & semantic distillation — to advance visual autoregressive models in T2I tasks, narrowing the gap with diffusion models.",
+        "venue": "Under Review (ACMMM)",
+        "image": "./assets/pipelines/Pipeline_diva.jpg",
+        "links": []
+      },
+      {
+        "title": "🖼️ Layout-Conditioned Autoregressive Text-to-Image Generation via Structured Masking",
+        "authors": "Zirui Zheng, Takashi Isobe<sup>‡</sup>, Tong Shen, Xu Jia†, <u><b>Jianbin Zhao</b></u>, Xiaomin Li, Mengmeng Ge, Baolu Li, Qinghe Wang, Dong Li, Dong Zhou, Yunzhi Zhuge, Huchuan Lu, Emad Barsoum",
+        "description": "Proposed SMARLI framework with structured masking strategy for precise spatial control in autoregressive T2I generation, resolving feature confusion from sparse layout conditions.",
+        "venue": "Under Review (ECCV 2026)",
+        "image": "./assets/pipelines/Pipeline_layout.jpg",
+        "links": [
+          {"type": "Paper", "url": "https://arxiv.org/pdf/2509.12046"}
+        ]
+      }
+    ],
+    "3d_reconstruction": [
+      {
+        "title": "🎬 D²GS: Deblurring Deformable 3D Gaussian Splatting for Motion-Blurred Causal Videos",
+        "authors": "Chaoran Feng<sup>*</sup>, <u><b>Jianbin Zhao<sup>*</sup></b></u>, Wangbo Yu, Zhenyu Tang, Yuchen Li, Li Yuan†, Yonghong Tian†",
+        "description": "Proposed D²GS for 4D dynamic scene reconstruction under motion blur, introducing dynamic-static separation and spatiotemporal consistency regularization to achieve SOTA deblurring quality.",
+        "venue": "Under Review (T-CSVT)",
+        "image": "./assets/pipelines/Pipeline_d2gs.png",
+        "links": []
+      },
+      {
+        "title": "🍿 CoherentGS: Breaking the Vicious Cycle from Sparse and Motion-Blurred Views",
+        "authors": "Zhankuo Xu<sup>*</sup>, Chaoran Feng<sup>*,#</sup>, Zhenyu Tang, <u><b>Jianbin Zhao</b></u>, Wangbo Yu, Li Yuan†, Yonghong Tian†",
+        "description": "A novel framework for coherent 3D Gaussian Splatting from sparse and motion-blurred views using dual-prior strategy with diffusion-driven geometry completion.",
+        "venue": "Under Review (T-CSVT)",
+        "image": "./assets/pipelines/Pipeline_coherentgs.png",
+        "links": [
+          {"type": "Paper", "url": "https://arxiv.org/abs/2512.10369"},
+          {"type": "Code", "url": "https://github.com/PotatoBigRoom/CoherentGS"}
+        ]
+      },
+      {
+        "title": "⚡ E-4DGS: High-Fidelity Dynamic Reconstruction from the Multi-view Event Cameras",
+        "authors": "Chaoran Feng, Zhenyu Tang, Wangbo Yu, Yatian Pang, Yian Zhao, <u><b>Jianbin Zhao</b></u>, Li Yuan†, Yonghong Tian†",
+        "description": "A first event-driven dynamic Gaussian Splatting framework for high-fidelity scene reconstruction with multi-view event cameras in high-speed and varying-lighting conditions.",
+        "venue": "ACMMM 2025",
+        "image": "./assets/pipelines/Pipeline_e_4dgs.png",
+        "links": [
+          {"type": "Paper", "url": "https://arxiv.org/pdf/2508.09912"}
+        ]
+      }
+    ]
+  },
+  "awards": [
+    {
+      "date": "[2025]",
+      "emoji": "🥈",
+      "content": "<b>National Silver Award</b>, International College Students Innovation Competition"
+    },
+    {
+      "date": "[2024]",
+      "emoji": "🏅",
+      "content": "<b>Provincial Second Prize</b>, ICAN Innovation & Entrepreneurship Competition"
+    },
+    {
+      "date": "[2025]",
+      "emoji": "🌟",
+      "content": "<b>Outstanding Undergraduate Project</b>, National Experimental Teaching Demonstration Center of Civil Eng. & Hydraulics — <i>\"AI-Enabled Urban Flood Detection\"</i>"
+    },
+    {
+      "date": "[2024]",
+      "emoji": "🌱",
+      "content": "<b>Provincial College Students Innovation & Entrepreneurship Training Program</b> — <i>\"Few-shot Conditional Generation\"</i>"
+    }
+  ]
+}
